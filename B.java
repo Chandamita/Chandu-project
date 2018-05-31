@@ -7,7 +7,7 @@ Scanner sc=new Scanner(System.in);
 System.out.println("enter a string");
 String str=sc.nextLine();
 String str1="";
-int i,count;
+int i=0,count=0;
 for(;str.length()>0;str=str1)
 {
 for(i=0,count=0,str1="";i<str.length();i++)
